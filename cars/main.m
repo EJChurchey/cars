@@ -12,11 +12,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         cars * mycars = [cars alloc];
-        mycars = [mycars init];
+        mycars = [mycars init: @"Jeep" model: @"Rubicon"];
         [mycars print];
         
         // insert code here...
-        NSLog(@"Objective C Sucks!");
+        NSLog(@"Objective C is making me crazy!");
     }
     return 0;
 }
